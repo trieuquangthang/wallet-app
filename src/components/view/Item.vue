@@ -17,7 +17,7 @@
   <!-- Row 2 -->
   <MyWallet />
   <!-- Row 3 -->
-  <MyWallet />
+  <Banking />
   <!-- Row 4 -->
   <MyWallet />
   <!-- Row 5 -->
@@ -38,10 +38,12 @@
 <script>
 import Favorite from './ChildItem/Favorite.vue'
 import MyWallet from './ChildItem/MyWallet.vue'
+import Banking from './ChildItem/Banking.vue';
 export default {
   components: {
     Favorite,
-    MyWallet
+    MyWallet,
+    Banking
   }
 }
 </script>

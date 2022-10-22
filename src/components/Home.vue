@@ -7,7 +7,7 @@
         <h5 class="el__user">Xin Chào,Triệu Thắng</h5>
       </div>
       <div>
-        <svg class="svg__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <svg class="svg__icon svg__notice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
           <path
             d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z" />
@@ -20,7 +20,7 @@
     <div class="bl__wallet--coin">
       <div class="bl__coin">
         <div class="bl__coin--infor">
-          <svg class="svg__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <svg class="svg__icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
             <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path
               d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z" />
@@ -256,24 +256,17 @@
   fill: rgb(0, 140, 255)
 }
 
+.svg__notice {
+  fill: blue
+}
+
 .bl--img {
   width: 32px;
   margin-bottom: 10px;
 }
 
-.svg__icon--menu {
-  width: 32px;
-  fill: rgb(0, 140, 255);
-  margin-bottom: 5px;
-  transition: all linear 0.2s;
-}
-
-.svg__icon--menu:hover {
-  transform: scale(1.1);
-}
-
 .bl__nav--menu {
-  width: 80px;
+  width: 65px;
   margin-top: 10px;
   text-align: center;
 }
@@ -313,7 +306,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: -40px;
+  margin-top: -35px;
 }
 
 .bl__wallet--coin {
@@ -321,7 +314,7 @@
   flex-direction: column;
   justify-content: center;
   width: 90%;
-  height: 150px;
+  height: 120px;
   padding: 5px;
   border: 0.5px solid whitesmoke;
   border-radius: 5px;
@@ -349,7 +342,6 @@
 .bl__function {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   height: 75%;
 }
@@ -362,8 +354,10 @@
 }
 
 .bl__content--nav {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
   width: 90%;
 }
 
@@ -395,16 +389,20 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
+
 }
 
 .bl__service {
   display: flex;
+  width: 90%;
   overflow-x: scroll;
+  margin: auto;
 }
 
 .bl__service--item {
   width: 90%;
   margin-top: 20px;
+
 }
 
 .el__item {

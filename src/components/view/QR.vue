@@ -39,7 +39,9 @@
 <style scoped>
 .bl__container {
   width: 100%;
-  min-height: 800px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
   background-color: rgb(25, 117, 255);
   text-align: center;
 }
@@ -68,7 +70,6 @@ p {
   font-size: 12px;
   color: white;
   margin: 10px auto;
-
 }
 
 .bl--menu {
@@ -86,18 +87,20 @@ p {
   margin-bottom: 10px;
 }
 
-
 .bl--title {
   color: white;
 }
 
 .bl--img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 15px;
-  margin-bottom: 15px;
+  border: 1px solid red;
 }
 
 .bl__qr {
-  width: 70%;
+  width: 250px;
   height: 300px;
   background-color: white;
   margin: auto;
@@ -111,7 +114,7 @@ p {
 
 .el--button {
   font-size: 12px;
-  width: 80%;
+  width: 210px;
   height: 25px;
   color: white;
   border: none;
