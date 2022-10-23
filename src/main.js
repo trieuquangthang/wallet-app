@@ -15,6 +15,7 @@ import QR from './components/view/QR.vue'
 import Item from './components/view/Item.vue'
 import UpdateItems from './components/view/ChildItem/UpdateItems.vue'
 import GiftDetails from './components/view/ChildItem/GiftDetails.vue'
+import AllGifts from './components/view/ChildItem/AllGifts.vue'
 
 
 const routes = [
@@ -27,6 +28,7 @@ const routes = [
     { path: '/item', component: Item },
     { path: '/updateitems', component: UpdateItems },
     { path: '/giftdetails/:id', component: GiftDetails },
+    { path: '/allgifts', component: AllGifts },
 
 ]
 

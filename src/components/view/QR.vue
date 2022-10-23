@@ -37,12 +37,12 @@
   </div>
 </template>
 <style scoped>
+* {
+  background-color: rgb(55, 135, 255);
+}
+
 .bl__container {
   width: 100%;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  background-color: rgb(25, 117, 255);
   text-align: center;
 }
 
@@ -56,7 +56,8 @@
   display: flex;
   width: 90%;
   height: 50px;
-  align-items: end;
+  margin-top: 20px;
+
 }
 
 .bl__header--title h3 {
@@ -96,20 +97,25 @@ p {
   flex-direction: column;
   justify-content: space-between;
   width: 15px;
-  border: 1px solid red;
+  margin-top: 4px;
 }
 
 .bl__qr {
   width: 250px;
-  height: 300px;
-  background-color: white;
+  height: 290px;
+  box-sizing: border-box;
   margin: auto;
   border-radius: 15px;
+  background-color: white;
+
 }
 
 .el__img--qr {
   width: 100%;
   padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+
 }
 
 .el--button {

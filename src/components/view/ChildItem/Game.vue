@@ -61,7 +61,7 @@
 
 .bl__game {
   display: flex;
-  width: 95%;
+  width: calc(90% + 15px);
   justify-content: space-between;
   margin: auto;
 }
@@ -74,6 +74,7 @@
   width: 90px;
   height: 25px;
   border-radius: 25px;
+  margin-left: 10px;
 
 }
 
@@ -85,7 +86,6 @@
   width: 90px;
   height: 25px;
   border-radius: 25px;
-  margin-left: 10px;
 }
 
 .el--img {
@@ -101,24 +101,27 @@ h5 {
 
 .bl__flash-sale {
   display: flex;
-  width: 95%;
-  gap: 10px;
+  width: calc(90% + 15px);
   overflow-x: scroll;
   margin: 10px auto;
+  box-sizing: border-box;
+  gap: 15px;
 }
 
 .bl--content {
-  display: block;
-  width: 300px;
-  height: 150px;
-  background-color: aqua;
+  width: calc(100%);
+  min-width: calc(90vw + 15px);
+  height: 200px;
   border-radius: 10px;
   overflow: hidden;
-
+  box-sizing: border-box;
 }
 
 .bl--img {
-  width: 300px;
-  height: 150px;
+  width: calc(100%);
+  min-width: calc(90vw + 15px);
+  box-sizing: border-box;
+  height: 200px;
+  border-radius: 10px;
 }
 </style>

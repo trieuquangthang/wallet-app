@@ -266,7 +266,7 @@
 }
 
 .bl__nav--menu {
-  width: 65px;
+  width: 70px;
   margin-top: 10px;
   text-align: center;
 }
@@ -314,7 +314,7 @@
   flex-direction: column;
   justify-content: center;
   width: 90%;
-  height: 120px;
+  height: 135px;
   padding: 5px;
   border: 0.5px solid whitesmoke;
   border-radius: 5px;
@@ -356,8 +356,8 @@
 .bl__content--nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  column-gap: 20px;
+  justify-content: space-between;
+  column-gap: 15px;
   width: 90%;
 }
 

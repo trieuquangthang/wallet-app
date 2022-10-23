@@ -1,5 +1,5 @@
 <template>
-  <div class="bl__boundary" v-for="item in gifts">
+  <div class="bl__boundary" v-for="item in  filt ">
     <RouterLink :to="`/giftdetails/${item.id}`">
       <div class="bl__tilte">
         <img class="el--img" src="../ChildImg/smartphone.png" alt="#">
@@ -7,6 +7,10 @@
       </div>
       <h3 class="el--h3">Giảm {{item.discount}}</h3>
       <h5 class="el--h5">Đơn Từ {{item.price}}</h5>
+      <div class="bl__trim">
+        <div class="bl__trim-1"></div>
+        <div class="bl__trim-2"></div>
+      </div>
       <div class="bl__coin">
         <div class="bl__point">
           <img class="el--img" src="../ChildImg/dollar.png" alt="#">
@@ -18,15 +22,24 @@
       </div>
     </RouterLink>
   </div>
-  <div class="bl__footer">
-  </div>
 </template>
 <script>
 export default {
   data() {
     return {
       gifts: [],
+      // search: '',
     }
+  },
+  props: {
+    search: String,
+  },
+  computed: {
+    filt() {
+      return this.gifts.filter(item => {
+        return item.title.toUpperCase().includes(this.search.toUpperCase().trim())
+      })
+    },
   },
   created() {
     this.getGift()
@@ -37,13 +50,15 @@ export default {
         .then(res => {
           this.gifts = res.data
         })
-    }
-  }
+    },
+  },
+
 }
 </script>
 <style scoped>
 .bl__boundary {
-  width: 170px;
+  width: calc(90%/2);
+  box-sizing: border-box;
   height: 160px;
   border-radius: 10px;
   background-color: white;
@@ -84,7 +99,7 @@ export default {
 .bl__point {
   display: flex;
   justify-content: space-between;
-  width: 65px;
+  width: 70px;
   margin-top: 13px;
   margin-left: 5px;
 }
@@ -97,5 +112,25 @@ export default {
 
 .bl__footer {
   height: 300px;
+}
+
+.bl__trim-1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid red; */
+  margin-left: -12px;
+  border-radius: 50%;
+  background-color: rgb(226, 238, 250)
+}
+
+.bl__trim-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid blue; */
+  margin-left: calc(90%/2 - 8px);
+  border-radius: 50%;
+  background-color: rgb(226, 238, 250)
 }
 </style>
