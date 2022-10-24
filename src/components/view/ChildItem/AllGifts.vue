@@ -66,6 +66,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  background-color: rgb(226, 238, 250);
 }
 
 footer {

@@ -59,9 +59,7 @@
   width: 100%;
   height: 100%;
   margin-top: 10px;
-  border: 0.5px solid whitesmoke;
-  border-top: none;
-  box-shadow: 0px 5px 0px 0px rgb(190, 231, 255);
+  background-color: white;
 }
 
 .bl--img {

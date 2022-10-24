@@ -12,28 +12,30 @@
       </div>
     </div>
   </div>
-  <!-- Row 1 -->
-  <Favorite />
-  <!-- Row 2 -->
-  <MyWallet />
-  <!-- Row 3 -->
-  <Banking />
-  <!-- Row 4 -->
-  <MyWallet />
-  <!-- Row 5 -->
-  <MyWallet />
-  <!-- Row 6 -->
-  <MyWallet />
-  <!-- Row 7 -->
-  <MyWallet />
-  <!-- Row 8 -->
-  <MyWallet />
-  <!-- Row 9 -->
-  <MyWallet />
-  <!-- Row 10 -->
-  <MyWallet />
-  <!-- Row 11 -->
-  <div class="bl__footer"></div>
+  <main>
+    <!-- Row 1 -->
+    <Favorite />
+    <!-- Row 2 -->
+    <MyWallet />
+    <!-- Row 3 -->
+    <Banking />
+    <!-- Row 4 -->
+    <MyWallet />
+    <!-- Row 5 -->
+    <MyWallet />
+    <!-- Row 6 -->
+    <MyWallet />
+    <!-- Row 7 -->
+    <MyWallet />
+    <!-- Row 8 -->
+    <MyWallet />
+    <!-- Row 9 -->
+    <MyWallet />
+    <!-- Row 10 -->
+    <MyWallet />
+    <!-- Row 11 -->
+  </main>
+  <footer></footer>
 </template>
 <script>
 import Favorite from './ChildItem/Favorite.vue'
@@ -48,8 +50,21 @@ export default {
 }
 </script>
 <style scoped>
+main {
+  background-color: rgb(226, 238, 250);
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(226, 238, 250);
+
+}
+
 .bl__header {
-  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .bl__header--title {
@@ -63,15 +78,13 @@ export default {
 
 .bl__header--title h3 {
   color: white;
+  margin-left: -15px;
 }
 
-.bl__footer {
-  width: 100%;
-  height: 50px;
-}
+
 
 .bl--img {
-  width: 32px;
-  margin-bottom: 5px;
+  width: 25px;
+  margin-bottom: 10px;
 }
 </style>

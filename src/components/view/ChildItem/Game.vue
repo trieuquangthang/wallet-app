@@ -1,9 +1,4 @@
 <template>
-  <div class="bl__header">
-    <div class="bl__header--title">
-      <h3>Dùng xu đổi quà </h3>
-    </div>
-  </div>
   <div class="bl__game">
     <div class="bl--button">
       <img class="el--img" src="../ChildImg/money-bag.png" alt="#">
@@ -42,23 +37,6 @@
   </div>
 </template>
 <style scoped>
-.bl__header {
-  width: 100%;
-}
-
-.bl__header--title {
-  display: flex;
-  width: 100%;
-  height: 50px;
-  background-color: rgb(25, 117, 255);
-  justify-content: center;
-  align-items: end;
-}
-
-.bl__header--title h3 {
-  color: white;
-}
-
 .bl__game {
   display: flex;
   width: calc(90% + 15px);
@@ -75,6 +53,7 @@
   height: 25px;
   border-radius: 25px;
   margin-left: 10px;
+  margin-top: 10px;
 
 }
 
@@ -86,6 +65,7 @@
   width: 90px;
   height: 25px;
   border-radius: 25px;
+  margin-top: 10px;
 }
 
 .el--img {

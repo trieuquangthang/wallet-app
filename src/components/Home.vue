@@ -224,20 +224,20 @@
   <div class="bl__nav">
     <div class="bl__nav--service">
       <div class="bl__nav--menu">
-        <img class="bl--img" src="./img/coffee.png" alt="#">
-        <h5>Lazada</h5>
+        <img class="bl--img" src="./img/facebook.png" alt="#">
+        <h5>Facebook</h5>
       </div>
       <div class="bl__nav--menu">
-        <img class="bl--img" src="./img/coffee-shop.png" alt="#">
-        <h5>Baemin</h5>
+        <img class="bl--img" src="./img/twitter.png" alt="#">
+        <h5>Twitter</h5>
       </div>
       <div class="bl__nav--menu">
-        <img class="bl--img" src="./img/automotive.png" alt="#">
-        <h5>Be</h5>
+        <img class="bl--img" src="./img/photoshop.png" alt="#">
+        <h5>Adobe Ps</h5>
       </div>
       <div class="bl__nav--menu">
-        <img class="bl--img" src="./img/automotive.png" alt="#">
-        <h5>Tiki</h5>
+        <img class="bl--img" src="./img/tiktok.png" alt="#">
+        <h5>Tiktok</h5>
       </div>
     </div>
   </div>
@@ -257,7 +257,7 @@
 }
 
 .svg__notice {
-  fill: blue
+  fill: rgb(0, 140, 255)
 }
 
 .bl--img {
@@ -276,7 +276,7 @@
   justify-content: center;
   width: 100%;
   height: 200px;
-  background-image: url(./img/pic1.jpg);
+  background-color: rgb(185, 229, 255);
 }
 
 .bl__header--infor {
