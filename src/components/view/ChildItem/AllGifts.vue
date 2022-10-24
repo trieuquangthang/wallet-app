@@ -1,4 +1,7 @@
 <template>
+  <div class="bl__header">
+    <h3>Dùng xu đổi quà </h3>
+  </div>
   <header>
     <div class="bl__search">
       <input class="el--input" type="text" v-model="search">
@@ -25,23 +28,33 @@ export default {
 }
 </script>
 <style scoped>
-* {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+header {
   background-color: rgb(226, 238, 250);
 }
 
-header {
+.bl__header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   display: flex;
+  width: 100%;
   height: 50px;
-  align-items: center;
+  justify-content: center;
+  align-items: end;
+  background-color: rgb(25, 117, 255)
+}
+
+.bl__header h3 {
+  color: white;
 }
 
 .bl__search {
-
+  display: flex;
   align-items: center;
   width: 100%;
+  height: 50px;
 }
 
 .el--input {
@@ -71,5 +84,6 @@ main {
 
 footer {
   height: 100px;
+  background-color: rgb(226, 238, 250);
 }
 </style>
