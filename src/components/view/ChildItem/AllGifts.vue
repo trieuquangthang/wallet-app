@@ -43,7 +43,7 @@ header {
   height: 50px;
   justify-content: center;
   align-items: end;
-  background-color: rgb(25, 117, 255)
+  background-color: rgb(30, 135, 255)
 }
 
 .bl__header h3 {

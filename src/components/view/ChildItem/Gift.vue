@@ -1,5 +1,5 @@
 <template>
-  <div class="bl__boundary" v-for="item in  filt ">
+  <div class="bl__boundary" v-for="item in  filt_title ">
     <RouterLink :to="`/giftdetails/${item.id}`">
       <div class="bl__tilte">
         <img class="el--img" src="../ChildImg/smartphone.png" alt="#">
@@ -28,14 +28,13 @@ export default {
   data() {
     return {
       gifts: [],
-      // search: '',
     }
   },
   props: {
     search: String,
   },
   computed: {
-    filt() {
+    filt_title() {
       return this.gifts.filter(item => {
         return item.title.toUpperCase().includes(this.search.toUpperCase().trim())
       })

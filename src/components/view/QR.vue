@@ -38,7 +38,7 @@
 </template>
 <style scoped>
 * {
-  background-color: rgb(55, 135, 255);
+  background-color: rgb(30, 135, 255);
 }
 
 .bl__container {

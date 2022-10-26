@@ -35,15 +35,15 @@ export default {
 </script>
 <style scoped>
 header {
-  background-color: rgb(25, 117, 255);
-}
-
-.bl__header {
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
+  background-color: rgb(30, 135, 255);
+}
+
+.bl__header {
   display: flex;
   width: 100%;
   height: 50px;

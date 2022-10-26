@@ -11,7 +11,7 @@
       <div class="bl__nav">
         <div class="bl__nav--infor">
           <div class="bl--avatar">
-            <img class="bl--img" src="../img/user.png" alt="#">
+            <img class="bl--img" src="../img/man.png" alt="#">
             <div class="el__user">
               <a>Triệu Thắng</a>
               <h5>0330000000</h5>
@@ -174,7 +174,7 @@
 </template>
 <style scoped>
 main {
-  background-color: rgb(226, 238, 250);
+  background-color: rgb(226, 239, 255);
   height: calc(100vh + 100px);
 }
 
@@ -189,7 +189,7 @@ main {
   display: flex;
   width: 100%;
   height: 50px;
-  background-color: rgb(25, 117, 255);
+  background-color: rgb(30, 135, 255);
   justify-content: center;
   align-items: end;
 }
@@ -199,7 +199,7 @@ main {
 }
 
 .bl__row {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .bl__nav {
@@ -224,7 +224,7 @@ main {
 }
 
 .bl--img {
-  width: 30px
+  width: 35px
 }
 
 .bl--logo {
@@ -264,7 +264,7 @@ h5 {
 }
 
 .bl--option {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 </style>
