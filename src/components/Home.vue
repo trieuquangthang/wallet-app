@@ -40,22 +40,30 @@
       </div>
       <!-- Tính năng -->
       <div class="bl__function">
-        <div class="bl__nav--menu">
-          <img class="bl--img" src="./img/bank.png" alt="#">
-          <h5>Chuyển Tiền</h5>
-        </div>
-        <div class="bl__nav--menu">
-          <img class="bl--img" src="./img/qr-icon.png" alt="#">
-          <h5>Thanh Toán Hợp Đồng</h5>
-        </div>
-        <div class="bl__nav--menu">
-          <img class="bl--img" src="./img/wallet.png" alt="#">
-          <h5>Nạp Rút</h5>
-        </div>
-        <div class="bl__nav--menu">
-          <img class="bl--img" src="./img/gift-box.png" alt="#">
-          <h5>Ưu Đãi</h5>
-        </div>
+        <RouterLink to="/update">
+          <div class="bl__nav--menu">
+            <img class="bl--img" src="./img/bank.png" alt="#">
+            <h5>Chuyển Tiền</h5>
+          </div>
+        </RouterLink>
+        <RouterLink to="/update">
+          <div class="bl__nav--menu">
+            <img class="bl--img" src="./img/qr-icon.png" alt="#">
+            <h5>Thanh Toán Hợp Đồng</h5>
+          </div>
+        </RouterLink>
+        <RouterLink to="/update">
+          <div class="bl__nav--menu">
+            <img class="bl--img" src="./img/wallet.png" alt="#">
+            <h5>Nạp Rút</h5>
+          </div>
+        </RouterLink>
+        <RouterLink to="/update">
+          <div class="bl__nav--menu">
+            <img class="bl--img" src="./img/gift-box.png" alt="#">
+            <h5>Ưu Đãi</h5>
+          </div>
+        </RouterLink>
       </div>
     </div>
   </div>
@@ -153,49 +161,51 @@
     </div>
   </div>
   <!-- Chương Trình Ưu Đãi -->
-  <div class="bl__service">
-    <RouterLink to="/update">
-      <div class="bl__service--item">
-        <div class="el__item">
-          <img src="./img/pic1.jpg" alt="#">
-        </div>
-        <div class="el__item--infor">
-          <div>
-            <h4 style="font-weight:bolder">Nhận 8.888.888đ</h4>
-            <h4>Khi Chuyển 1.111đ</h4>
+  <div class="bl__container--service">
+    <div class="bl__service">
+      <RouterLink to="/update">
+        <div class="bl__service--item">
+          <div class="el__item">
+            <img src="./img/pic1.jpg" alt="#">
           </div>
-          <div><a href="#">Nhận ngay</a></div>
-        </div>
-      </div>
-    </RouterLink>
-    <RouterLink to="/update">
-      <div class="bl__service--item">
-        <div class="el__item">
-          <img src="./img/pic1.jpg" alt="#">
-        </div>
-        <div class="el__item--infor">
-          <div>
-            <h4 style="font-weight:bolder">Nhận 8.888.888đ</h4>
-            <h4>Khi Chuyển 1.111đ</h4>
+          <div class="el__item--infor">
+            <div>
+              <h4 style="font-weight:bolder">Nhận 8.888.888đ</h4>
+              <h4>Khi Chuyển 1.111đ</h4>
+            </div>
+            <div><a href="#">Nhận ngay</a></div>
           </div>
-          <div><a href="#">Nhận ngay</a></div>
         </div>
-      </div>
-    </RouterLink>
-    <RouterLink to="/update">
-      <div class="bl__service--item">
-        <div class="el__item">
-          <img src="./img/pic1.jpg" alt="#">
-        </div>
-        <div class="el__item--infor">
-          <div>
-            <h4 style="font-weight:bolder">Nhận 8.888.888đ </h4>
-            <h4>Khi Chuyển 1.111đ</h4>
+      </RouterLink>
+      <RouterLink to="/update">
+        <div class="bl__service--item">
+          <div class="el__item">
+            <img src="./img/pic2.jpg" alt="#">
           </div>
-          <div><a href="#">Nhận ngay</a></div>
+          <div class="el__item--infor">
+            <div>
+              <h4 style="font-weight:bolder">Phần Quà Hấp Dẫn</h4>
+              <h4>Khi Thanh Toán Tại ZaloPay</h4>
+            </div>
+            <div><a href="#">Nhận ngay</a></div>
+          </div>
         </div>
-      </div>
-    </RouterLink>
+      </RouterLink>
+      <RouterLink to="/update">
+        <div class="bl__service--item">
+          <div class="el__item">
+            <img src="./img/pic3.jpg" alt="#">
+          </div>
+          <div class="el__item--infor">
+            <div>
+              <h4 style="font-weight:bolder">Giới Thiệu Bạn Bè </h4>
+              <h4>Để Nhận Phần Quà</h4>
+            </div>
+            <div><a href="#">Nhận ngay</a></div>
+          </div>
+        </div>
+      </RouterLink>
+    </div>
   </div>
   <!-- Dịch Vụ Đối Tác -->
   <div class="bl__nav">
@@ -228,11 +238,6 @@
 <script>
 </script>
 <style scoped>
-.svg__icon--func {
-  width: 32px;
-  fill: rgb(0, 140, 255)
-}
-
 .svg__icon {
   width: 15px;
   fill: rgb(0, 140, 255)
@@ -272,18 +277,18 @@
 
 .bl__header--infor {
   width: 90%;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .bl--avatar {
   display: flex;
+  align-items: flex-end;
 }
 
 .el__user {
-  margin-top: 9px;
   margin-left: 5px;
 }
 
@@ -298,6 +303,8 @@
   justify-content: center;
   width: 100%;
   margin-top: -35px;
+  /* position: relative;
+  top: -35px; */
 }
 
 .bl__wallet--coin {
@@ -381,20 +388,22 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
+}
 
+.bl__container--service {
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .bl__service {
   display: flex;
-  width: 90%;
   overflow-x: scroll;
-  margin: auto;
+  gap: 20px;
 }
 
 .bl__service--item {
-  width: 90%;
-  margin-top: 20px;
-
+  width: 100%;
 }
 
 .el__item {
@@ -405,7 +414,6 @@
   border-bottom: none;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
-  margin-right: 25px;
 }
 
 .el__item img {

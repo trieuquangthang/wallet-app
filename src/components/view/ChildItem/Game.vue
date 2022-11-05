@@ -16,7 +16,7 @@
   <div class="bl__flash-sale">
     <RouterLink to="/">
       <div class="bl--content">
-        <img class="bl--img" src="../ChildImg/pic2.jpg" alt="#">
+        <img class="bl--img" src="../ChildImg/pic1.jpg" alt="#">
       </div>
     </RouterLink>
     <RouterLink to="/">
@@ -26,12 +26,12 @@
     </RouterLink>
     <RouterLink to="/">
       <div class="bl--content">
-        <img class="bl--img" src="../ChildImg/pic2.jpg" alt="#">
+        <img class="bl--img" src="../ChildImg/pic3.jpg" alt="#">
       </div>
     </RouterLink>
     <RouterLink to="/">
       <div class="bl--content">
-        <img class="bl--img" src="../ChildImg/pic2.jpg" alt="#">
+        <img class="bl--img" src="../ChildImg/pic4.jpg" alt="#">
       </div>
     </RouterLink>
   </div>

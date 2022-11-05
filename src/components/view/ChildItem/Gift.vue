@@ -2,7 +2,7 @@
   <div class="bl__boundary" v-for="item in  filt_title ">
     <RouterLink :to="`/giftdetails/${item.id}`">
       <div class="bl__tilte">
-        <img class="el--img" src="../ChildImg/smartphone.png" alt="#">
+        <img class="el--img" src="../ChildImg/safebox.png" alt="#">
         <h5>{{item.title}}</h5>
       </div>
       <h3 class="el--h3">Giảm {{item.discount}}</h3>
@@ -98,7 +98,7 @@ export default {
 .bl__point {
   display: flex;
   justify-content: space-between;
-  width: 70px;
+  width: 50px;
   margin-top: 13px;
   margin-left: 5px;
 }

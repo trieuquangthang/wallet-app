@@ -3,7 +3,7 @@
     <!-- Tiêu đề -->
     <div class="bl__header">
       <div class="bl__header--title">
-        `` <h3>Lịch Sử Giao Dịch</h3>
+        <h3>Lịch Sử Giao Dịch</h3>
       </div>
       <div class="bl__container">
         <img class="bl--img" src="./ChildImg/search-interface-symbol.png" alt="#">
@@ -29,133 +29,15 @@
     </div>
     <!-- row 3 -->
     <div class="bl__row">
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/wallet.png" alt="#">
-            <h5 class="bl--option">Số dư</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/dollar.png" alt="#">
-            <h5 class="bl--option">Xu tích luỹ</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/giftbox.png" alt="#">
-            <h5 class="bl--option">Quà của tôi</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
 
     </div>
     <!-- row 4 -->
     <div class="bl__row">
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/bank.png" alt="#">
-            <h5 class="bl--option">Ngân Hàng</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/bill.png" alt="#">
-            <h5 class="bl--option">Quản lý hoá đơn</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/link-1.png" alt="#">
-            <h5 class="bl--option">Liên kết thanh toán</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/link.png" alt="#">
-            <h5 class="bl--option">Dịch vụ liên kết</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
+
     </div>
     <!-- row 5 -->
     <div class="bl__row">
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/cogwheel.png" alt="#">
-            <h5 class="bl--option">Thiết lập tài khoản</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/customer-service.png" alt="#">
-            <h5 class="bl--option">Trung Tâm Hỗ Trợ</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
-      <!-- item -->
-      <div class="bl__nav">
-        <div class="bl__nav--option">
-          <div class="bl--menu">
-            <img class="bl--logo" src="../img/letter-i.png" alt="#">
-            <h5 class="bl--option">Thông Tin Ứng Dụng</h5>
-          </div>
-          <div class="bl__coin">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
-        </div>
-      </div>
+
     </div>
   </main>
 </template>
@@ -282,7 +164,7 @@ main {
 .bl__tabs {
   display: flex;
   width: 80px;
-  height: 30px;
+  height: 50px;
 }
 
 .el--h5 {
