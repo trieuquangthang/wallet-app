@@ -185,7 +185,7 @@
           <div class="el__item--infor">
             <div>
               <h4 style="font-weight:bolder">Phần Quà Hấp Dẫn</h4>
-              <h4>Khi Thanh Toán Tại ZaloPay</h4>
+              <h4>Khi Sử Dụng ZaloPay</h4>
             </div>
             <div><a href="#">Nhận ngay</a></div>
           </div>
