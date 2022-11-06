@@ -8,20 +8,22 @@
     </div>
     <!-- row 1 -->
     <div class="bl__row">
-      <div class="bl__nav">
-        <div class="bl__nav--infor">
-          <div class="bl--avatar">
-            <img class="bl--img" src="../img/man.png" alt="#">
-            <div class="el__user">
-              <a>Triệu Thắng</a>
-              <h5>0330000000</h5>
+      <RouterLink to="/myinfor">
+        <div class="bl__nav">
+          <div class="bl__nav--infor">
+            <div class="bl--avatar">
+              <img class="bl--img" src="../img/man.png" alt="#">
+              <div class="el__user">
+                <a>Triệu Thắng</a>
+                <h5>0330000000</h5>
+              </div>
+            </div>
+            <div class="bl__icon">
+              <img class="bl--icon" src="../img/next.png" alt="#">
             </div>
           </div>
-          <div class="bl__icon">
-            <img class="bl--icon" src="../img/next.png" alt="#">
-          </div>
         </div>
-      </div>
+      </RouterLink>
     </div>
     <!-- row 2 -->
     <div class="bl__row">

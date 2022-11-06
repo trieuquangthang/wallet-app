@@ -2,7 +2,7 @@
   <div class="bl__game">
     <div class="bl--button">
       <img class="el--img" src="../ChildImg/money-bag.png" alt="#">
-      <h5>30000000</h5>
+      <h5>3000000</h5>
     </div>
     <div class="bl--button">
       <img class="el--img" src="../ChildImg/banknote.png" alt="#">
@@ -14,26 +14,25 @@
     </div>
   </div>
   <div class="bl__flash-sale">
-    <RouterLink to="/">
-      <div class="bl--content">
-        <img class="bl--img" src="../ChildImg/pic1.jpg" alt="#">
-      </div>
-    </RouterLink>
-    <RouterLink to="/">
-      <div class="bl--content">
-        <img class="bl--img" src="../ChildImg/pic2.jpg" alt="#">
-      </div>
-    </RouterLink>
-    <RouterLink to="/">
-      <div class="bl--content">
-        <img class="bl--img" src="../ChildImg/pic3.jpg" alt="#">
-      </div>
-    </RouterLink>
-    <RouterLink to="/">
-      <div class="bl--content">
-        <img class="bl--img" src="../ChildImg/pic4.jpg" alt="#">
-      </div>
-    </RouterLink>
+
+    <div class="bl--content">
+      <img class="bl--img" src="../ChildImg/pic1.jpg" alt="#">
+    </div>
+
+
+    <div class="bl--content">
+      <img class="bl--img" src="../ChildImg/pic2.jpg" alt="#">
+    </div>
+
+    <div class="bl--content">
+      <img class="bl--img" src="../ChildImg/pic3.jpg" alt="#">
+    </div>
+
+
+    <div class="bl--content">
+      <img class="bl--img" src="../ChildImg/pic4.jpg" alt="#">
+    </div>
+
   </div>
 </template>
 <style scoped>
@@ -54,7 +53,6 @@
   border-radius: 25px;
   margin-left: 10px;
   margin-top: 10px;
-
 }
 
 .bl--button {
