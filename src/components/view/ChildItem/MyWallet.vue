@@ -29,25 +29,25 @@
         <div class="bl__nav--menu">
           <RouterLink to="/updateitems">
             <img class="bl--img" src="../ChildImg/shopping-online.png" alt="#">
-            <h5>Mua Sắm </h5>
+            <h5>Mua Sắm</h5>
           </RouterLink>
         </div>
         <div class="bl__nav--menu">
           <RouterLink to="/updateitems">
-            <img class="bl--img" src="../ChildImg/store.png" alt="#">
-            <h5>Big C</h5>
+            <img class="bl--img" src="../ChildImg/credit-card.png" alt="#">
+            <h5>Thanh Toán Hoá Đơn</h5>
           </RouterLink>
         </div>
         <div class="bl__nav--menu">
           <RouterLink to="/updateitems">
-            <img class="bl--img" src="../ChildImg/store.png" alt="#">
-            <h5>Big C</h5>
+            <img class="bl--img" src="../ChildImg/charge.png" alt="#">
+            <h5>Nộp Học Phí</h5>
           </RouterLink>
         </div>
         <div class="bl__nav--menu">
           <RouterLink to="/updateitems">
-            <img class="bl--img" src="../ChildImg/store.png" alt="#">
-            <h5>Big C</h5>
+            <img class="bl--img" src="../ChildImg/ticket.png" alt="#">
+            <h5>Đặt Xe</h5>
           </RouterLink>
         </div>
       </div>

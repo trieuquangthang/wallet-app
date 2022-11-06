@@ -57,7 +57,6 @@ main {
 footer {
   height: 100px;
   background-color: rgb(226, 238, 250);
-
 }
 
 .bl__header {
